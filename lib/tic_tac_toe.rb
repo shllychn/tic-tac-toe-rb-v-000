@@ -92,6 +92,7 @@ def won?(board)
       return win_combo
     end
   end
+  false
 end
 
 def full?(board)
